@@ -16,6 +16,13 @@ An offline-capable web app that checks low-voltage final-circuit designs against
 
 - Live demo: https://habibullahmanzoor.github.io/circuitcheck/
 - CI: workflows are in [docs/ci/](docs/ci/) (typecheck, tests, build, Pages deploy). Copy them to `.github/workflows/` to enable them; pushing workflow files needs the GitHub `workflow` token scope.
+## Demo
+
+<p align="center">
+  <img src="docs/screenshots/demo.gif" alt="Animated demo: load the sample board, find and apply a verified fix, try what-if sliders and the cable size finder, enter site test readings with live Pass/Fail, then open the report" width="100%">
+</p>
+<p align="center"><em>The full flow in 34 seconds: load a board, find failures, apply a verified fix, explore what-ifs, enter site readings, print a report.</em></p>
+
 ## Screenshots
 
 The screenshots use the built-in sample board, which contains three deliberate failures (a long lighting run, a socket circuit with no RCD, and a long C32 run).
@@ -47,7 +54,7 @@ The screenshots use the built-in sample board, which contains three deliberate f
 </p>
 <p align="center"><em>Mobile-first: bottom navigation, 44 px tap targets, and an offline PWA for use on site.</em></p>
 
-See also the in-app [Guide](docs/screenshots/guide.png) tab and the [welcome screen](docs/screenshots/welcome.png). A demo GIF of the full flow has not been recorded yet.
+See also the in-app [Guide](docs/screenshots/guide.png) tab and the [welcome screen](docs/screenshots/welcome.png).
 
 ## What it checks
 
