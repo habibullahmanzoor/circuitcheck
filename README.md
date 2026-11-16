@@ -6,7 +6,38 @@ An offline-capable web app that checks low-voltage final-circuit designs against
 
 - Live demo: https://habibullahmanzoor.github.io/circuitcheck/
 - CI: workflows are in [docs/ci/](docs/ci/) (typecheck, tests, build, Pages deploy). Copy them to `.github/workflows/` to enable them; pushing workflow files needs the GitHub `workflow` token scope.
-- Demo GIF (board → check → site test → report): _not yet recorded_
+## Screenshots
+
+The screenshots use the built-in sample board, which contains three deliberate failures (a long lighting run, a socket circuit with no RCD, and a long C32 run).
+
+<p align="center">
+  <img src="docs/screenshots/design-check.png" alt="Design check: board health, pass/fail tiles and a failing circuit with a verified suggested fix" width="100%">
+</p>
+<p align="center"><em>Design check: board health score, pass/fail tiles, and each failure with its numbers, formula and an engine-verified fix you can apply in one click.</em></p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/lab-what-if.png" alt="What-if sliders re-running every check live"><br><sub><b>What-if lab.</b> Drag length, load, size or breaker and every check recalculates live. L2 flips from Fail to Pass at 30 m.</sub></td>
+    <td width="50%"><img src="docs/screenshots/cable-size-finder.png" alt="Cable size finder showing every standard size and its result"><br><sub><b>Cable size finder.</b> Tries every standard size and marks the smallest that passes all checks.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/site-tests.png" alt="Site tests form with live limits and a Fail verdict"><br><sub><b>Site tests.</b> Large inputs, limits beside each field, and an instant verdict as you type.</sub></td>
+    <td width="50%"><img src="docs/screenshots/report.png" alt="Printable A4 design calculation report"><br><sub><b>Report.</b> Printable A4 summary with failures, fixes, test results, settings used and assumptions.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/settings.png" alt="Assumptions and settings page with editable, validated values"><br><sub><b>Assumptions &amp; settings.</b> Every constant is editable, validated, saved, and printed in reports with changes flagged.</sub></td>
+    <td width="50%"><img src="docs/screenshots/board.png" alt="Board tab with the sample circuit schedule"><br><sub><b>Board.</b> Circuit schedule with CSV import/export, backup and restore, undo and redo.</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/screenshots/mobile-design-check.png" alt="Design check on a phone" width="30%">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/mobile-site-tests.png" alt="Site tests on a phone" width="30%">
+</p>
+<p align="center"><em>Mobile-first: bottom navigation, 44 px tap targets, and an offline PWA for use on site.</em></p>
+
+See also the in-app [Guide](docs/screenshots/guide.png) tab and the [welcome screen](docs/screenshots/welcome.png). A demo GIF of the full flow has not been recorded yet.
 
 ## What it checks
 
