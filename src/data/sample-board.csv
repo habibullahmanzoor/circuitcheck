@@ -1,0 +1,9 @@
+ref,description,phases,kind,device,inA,ibA,lineCsaMm2,cpcCsaMm2,insulation,lengthM,installMethod,ambientFactor,groupingFactor,rcdMa
+L1,Lighting ground floor,1P,lighting,B,6,4,1.5,,PVC70,25,C,1,1,
+L2,Lighting first floor (long run),1P,lighting,B,6,5,1.5,,PVC70,55,C,1,1,
+S1,Sockets living area,1P,socket,B,20,16,2.5,,PVC70,25,C,1,1,30
+S2,Sockets kitchen (no RCD),1P,socket,B,20,14,2.5,,PVC70,18,C,1,1,
+S3,Sockets outbuilding,1P,socket,B,16,10,2.5,,PVC70,30,C,1,1,30
+C1,Cooker,1P,fixed,B,32,28,6,,PVC70,15,C,1,1,
+W1,Immersion heater,1P,fixed,B,16,13,2.5,,PVC70,12,C,1,1,
+F1,EV charger (long run),1P,fixed,C,32,10,2.5,,PVC70,45,C,1,1,
