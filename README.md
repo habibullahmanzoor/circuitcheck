@@ -1,5 +1,15 @@
 ﻿# CircuitCheck
 
+<p align="center">
+  <a href="https://habibullahmanzoor.github.io/circuitcheck/">
+    <img src="docs/screenshots/banner.png" alt="CircuitCheck: check your circuits in seconds. Voltage drop, earth fault loop, fault withstand and RCD rules, with every formula shown, then validate site test readings against the design limits." width="100%">
+  </a>
+</p>
+<p align="center">
+  <a href="https://habibullahmanzoor.github.io/circuitcheck/"><b>Open the live demo</b></a>
+  &nbsp;·&nbsp; works offline &nbsp;·&nbsp; deterministic, tested engine &nbsp;·&nbsp; design aid only
+</p>
+
 An offline-capable web app that checks low-voltage final-circuit designs against BS 7671-style rules and validates site test results against the design limits. Every result carries its formula, inputs, assumptions and clause reference.
 
 > **Design aid only.** Results depend on the inputs and assumptions listed. This tool is not a substitute for the judgement and sign-off of a competent person. It does not produce certificates and gives no compliance guarantee.
